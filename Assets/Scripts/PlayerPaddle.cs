@@ -9,7 +9,6 @@ public class PlayerPaddle : MonoBehaviour
 
     private Vector2 directionInput;
 
-   
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -27,6 +26,7 @@ public class PlayerPaddle : MonoBehaviour
     {
         directionInput = value.Get<Vector2>();
     }
+    
 }
 /*
 void: variavel sem valor, sem retorno 

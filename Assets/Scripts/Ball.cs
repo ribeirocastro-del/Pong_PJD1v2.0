@@ -41,8 +41,22 @@ public class Ball : MonoBehaviour
 
         direction.y = Random.Range(-0.5f, 0.5f);
         rb.linearVelocity =  direction * ballSpeed;
+        
     }
+
+    public void ResetBall()
+    {
+        rb.linearVelocity = Vector2.zero;
+        transform.position = Vector2.zero;
+    }
+    
+    
+    
+    
+    
 }
+
+
 /*
 Ramdom: valores aleatorio 
 value: valor 
